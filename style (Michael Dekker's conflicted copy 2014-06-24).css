@@ -1,0 +1,298 @@
+body {
+	font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+.right {
+	text-align: right;
+}
+
+
+/* HEADER */
+div#header {
+	background-color: #FFF;
+	margin: 0;
+}
+	header {
+		margin-top: 10px;
+	}
+	header h1 {
+		margin:0;
+		display: inline;
+	}
+	header nav {
+		display:inline;
+	}
+	header nav ul {
+		float: right;
+		list-style-type: none;
+		margin-top: 30px;
+	}
+		header nav ul li {
+			display: inline;
+			padding: 0px 40px;
+			padding-right: 5px; 
+			font-size: 12px;
+			color:#000;
+			text-transform: uppercase;
+			font-family: 'Fira Sans', sans-serif;
+			font-weight: bold;
+		}
+		header nav ul li.selected {
+			text-decoration: none;
+			color:#000;
+		}
+			header nav ul li a {
+			text-decoration: none;
+			color:#000;
+			}
+
+			header nav ul li a:hover {
+			text-decoration: none;
+			color:#b41f29;
+			}
+
+h1,{
+	font-family: 'Merriweather', serif;
+}
+h2, {	
+	font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+}
+
+/* MARKETING */
+div#marketing {
+	background-color: #e1e1e1;	
+	background-image: url('../images/background-image.png');
+	background-size: cover;
+	background-position: center center;
+	margin: 0;
+	min-height: 500px;
+	padding-top: 10px;
+	text-align: center;
+}
+	div#marketing h1 {
+		font-weight: bold;
+		color:#b41f29;
+		font-size: 40px;
+		margin: 10px;
+		letter-spacing: -0.05em;
+		line-height: .9;
+		margin-top: 20px;
+	}
+		div#marketing h2 {
+			color:#0000;
+			font-size: 14px;
+			font-weight: bold;
+		}
+div#subscribe form {
+		margin:0 0 15px 0;
+		padding:0;
+	}
+	div#subscribe form input {
+		display: inline;
+		width:381px;
+		height: 52px;
+		border-radius: 4px;
+		border:none;
+		padding: 12px;
+	}
+	div#subscribe form button {
+		display: inline;
+		background: #b41f29;
+		color:#fff;
+		text-shadow:none;
+		border:none;
+		font-family:'Fira Sans', Helvetica, Arial, sans-serif;
+		text-transform: uppercase;
+		height: 52px;
+		font-size: 17px;
+		padding: 12px;
+	}
+
+div#screengrab {
+	margin-top: -15px;
+	text-align: center;
+	margin-bottom: -7px;
+}
+
+/* TESTIMONIALS */
+div#testimonials {
+	background-color: #fff;	
+	background-size: cover;
+	background-position: center center;
+	padding-top: 10px;
+	padding-right: center;
+	padding-bottom: 20px;
+	text-align: center;
+	margin-top: 0px;
+}	
+
+	div#testimonials span.ellipse {
+		border-radius: 50%;
+		width: 189px;
+		height: 184px;
+		display: block;
+		position: relative;
+		margin:0 auto 10px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	div#testimonials h3 {
+		color: #096a8d;
+		font-family: 'Merriweather', serif;
+		font-size: 20px;
+		font-weight: bold;
+		margin-top: -30px;
+		}
+
+		div#testimonials p {
+		color: #000;
+		font-family: 'Fira Sans', sans-serif;
+		font-size: 15px;
+	}
+
+	div#testimonials p.title {
+		color: #000;
+		font-family: 'Fira Sans', sans-serif;
+		font-size: 11px;
+	}
+
+/* FEATURES */
+	div#features {
+	background-color: #ebebeb;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 100;
+	margin-top: 100;
+}
+
+		div#features h4 {
+		font-weight: bold;
+		color:#b41f29;
+		font-size: 20px;
+		margin: 10px;
+		margin-top: 20px;
+	}
+
+		div#features .sixcolumns p, .eightcolumnsright p {
+		color: #000;
+		font-family: 'Fira Sans', sans-serif;
+		font-size: 18px;
+		text-align: left;
+		float: right;
+		padding: 10px;
+	}
+
+		div#features .sixcolumns p.text, .eightcolumnsright p.text {
+		color: #000;
+		font-family: 'Fira Sans', sans-serif;
+		font-size: 11px;
+	} 
+	
+/* Pricing */
+	div#Pricing {
+		background-color: #096a8d;
+		background-size: cover;
+		background-position: center center;
+		height: 435px;
+			}
+
+	div#Pricing h5 {
+		color: #fff;
+		font-family: 'Merriweather', serif;
+		font-size: 18px;
+		font-weight: bold;
+		padding-top: 40px;
+
+	}
+	div#Pricing p {
+		color: #fff;
+		font-family: 'fira sans', sans-serif, arial, helvetica;
+		font-size: 16px;
+		font-weight: bold;
+	}
+			
+	div#Pricing span.rectangle {
+			border-radius: 50%;
+			width: 189px;
+			height: 184px;
+			display: block;
+			position: relative;
+			margin-top: 50px;
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+
+/* EMAIL */
+	div#email {
+	background-color: #fff;
+	text-align: center;
+	padding:60px 0 20px;
+}
+	div#email h6 {
+		color: #000;
+		font-family: 'Merriweather';
+		font-size: 22px;
+		font-weight: bold;
+}
+
+	}
+	div#email form {
+		margin:0 0 15px 0;
+		padding:0;
+	}
+	div#email form input {
+		display: inline;
+		width:400px;
+		background:#e1e1e1;
+		border-radius: 4px;
+		border:none;
+		padding: 12px;
+	}
+	div#email form button {
+		background: #b41f29!important;
+		color:#fff;
+		text-shadow:none;
+		border:none;
+		font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+		text-transform: uppercase;
+		font-size: 19px;
+		padding:8px 15px 11px;
+	}
+
+/* FOOTER */
+div#footer {
+	background-color: #e1e1e1;
+	color:#2d2d2d;
+	margin-bottom: 0px;
+}
+div#footer nav {
+	margin:15px 0 0;
+}
+div#footer p {
+	margin:15px 0 0;
+}
+	div#footer nav ul {
+		list-style-type: none;
+	}
+		div#footer nav ul li {
+			display:inline;
+		}
+			div#footer nav ul li a {
+				color:#2d2d2d;
+				text-decoration: none;
+			}
+
+a, a:visited {
+	color:#b41f29;
+	}
+
+a, a:hover {
+			text-decoration: none;
+			color:#b41f29;
+			}
